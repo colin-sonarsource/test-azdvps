@@ -18,7 +18,9 @@ steps:
     SonarCloud: 'SonarCloud'
     organization: 'colin-sonarsource'
     scannerMode: 'CLI'
-    projectKey: 'colin-sonarsource_test-azdvps'
+    configMode: 'manual'
+    cliProjectKey: 'colin-sonarsource_test-azdvps'
+    cliSources: '.'
 
 - task: SonarCloudAnalyze@1
 
